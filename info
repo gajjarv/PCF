@@ -1,0 +1,5 @@
+Codes to find the pair correlation function
+
+v1 : Basic function to operate on single file
+v2 : Specific prog to operate on all 3 burst_number.dat* files for one pulsar and 
+     calculate the combine histogram
