@@ -1,1 +1,5 @@
 # PCF
+The Pair Correlation Function (PCF) is a probability density function (also known as the radial distribution function or pair separation function) for the clustering of certain objects or events in space and/or time coordinates (Pimbley & Lu 1985) and is useful for measuring the degree of packing. This code uses one-dimensional PCF, which identifies the clustering of events in the time series data. The PCF for a series M pulses with N burst pulses can be derived as follows. The pulse index of these burst pulses are pi or pj = p1, p2, ..., pN. Then, PCF is defined as; 
+PCF(p) = G·∑∑⟨δ(p − |pj−pi|)⟩.
+Where G is a scaling parameter and δ is the Kronecker delta function. A normalized binning of PCF, provides the probability of occurrence of certain separations between burst pulses. If any time-series exhibits bunching of events and periodic occurrence of these bunches, the PCF shows prominent peaks around repeatedly occurring separations and their harmonics. A simple way to detect such periodicities is to obtain the Fourier spectra of the PCF. 
+
